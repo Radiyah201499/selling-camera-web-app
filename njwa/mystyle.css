@@ -1,0 +1,37 @@
+
+body {
+
+background-color:lightpink;
+}
+h1{
+color:yellow; text-align: center;
+
+}
+h2 {
+color:red; text-align: center;
+
+}
+
+.masthead {
+    height: 20%;
+    background: #ccc; padding: 15px;
+} 
+.sidebar { 
+    float: left;
+    width: 25%; height: 200%;
+    margin-right: 2%; 
+    background: #4a4; padding: 15px; 
+ }
+.main { 
+    height: 200%;
+    background:pink; padding: 15px;
+
+} 
+.footer  { 
+    clear: left; 
+    height: 10%
+    background: #666;  padding: 15px; 
+} 
+
+#gallery span{display:none;}
+#gallery a:hover span{display:block;position:absolute;left:650px;top:270px;}
